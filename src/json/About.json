@@ -1,0 +1,34 @@
+{
+    "sectionIntro": {
+      "title": "About",
+      "subtitle": "Let me introduce myself.",
+      "introInfo": {
+        
+        "image": "passport.jpg",
+        "lead": "Passionate about technology and backed by a strong Computer Engineering background, I specialize in backend development, excelling in Java, C++, and web technologies. Committed to using tech for social good and recognized for my problem-solving prowess in competitive programming."
+      }
+    },
+    "aboutContent": {
+      "profile": {
+        "title": "Profile",
+        "content": "Experienced in backend development utilizing Java, C++, and web technologies, acknowledged for impactful project contributions in different domains."
+      },
+      "infoList": [
+        {"label": "Fullname", "value": "Shruti Rangnath Devshatwar"},
+        {"label": "Birth Date", "value": "April 2, 2002"},
+        {"label": "LinkedIn", "value": "https://www.linkedin.com/in/shruti-devshatwar-bb7631224/"},
+        {"label": "Github", "value": "https://github.com/srd11"},
+        {"label": "Email", "value": "shruti2402devshatwar@gmail.com"}
+      ],
+      "skills": [
+        {"name": "Java", "percentage": 95},
+        {"name": "C++", "percentage": 75},
+        {"name": "Android Development", "percentage": 55},
+        {"name": "HTML", "percentage": 85},
+        {"name": "CSS", "percentage": 80},
+        {"name": "JavaScript", "percentage": 85},
+        {"name": "MySQL", "percentage": 85}
+      ]
+    }
+  }
+  

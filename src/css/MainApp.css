@@ -1,0 +1,10 @@
+.MainApp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Updated to left justify buttons */
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #000; /* Updated background color to black */
+    font-family: Arial, sans-serif;
+    color: #fff; /* Added white text color */
+}

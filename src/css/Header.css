@@ -1,0 +1,56 @@
+
+
+   /* Header.css */
+   /* Header.css */
+
+.header-title {
+    font-size: 24px; /* Increase the font size */
+    font-weight: bold;
+    color: #fff; /* Light text color */
+    margin-right: 10px; /* Add margin to separate title and links */
+    text-align: left; /* Left justify the header title */
+    margin-top: 15px;
+    
+}
+  
+.header-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align links to the right */
+  }
+  
+  .header-links li {
+    margin-right: 15px;
+  }
+  
+  .header-links a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s; /* Add transition effect */
+  
+    /* Default text color */
+    color: #fff;
+  }
+  
+  /* Hover effect */
+  .header-links a:hover {
+    color: #333; /* Dark text color on hover */
+  }
+  
+  /* Add button styles */
+  .header-links a.button {
+    border: 1px solid #fff; /* Button border */
+    padding: 8px 15px; /* Add padding to buttons */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Add transition effect */
+  }
+  
+  /* Hover effect for buttons */
+  .header-links a.button:hover {
+    background-color: #fff;
+    color: #333; /* Dark text color on hover */
+  }
+  

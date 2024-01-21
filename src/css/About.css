@@ -1,0 +1,171 @@
+/* about.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    background-color: #080808; /* Sky blue background for the entire webpage */
+}
+
+
+
+#about-container {
+    background-color: #F0F0F0; /* Light gray background for the content div */
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 200px;
+    padding-right: 200px;
+    border: 2px solid #050505; /* Add a rectangular border */
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#about .section-intro {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.intro-info img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    text-align: center;
+}
+
+.about-content .col-six {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.section-intro h1,
+.section-intro h2 {
+    color: #292222; 
+    font-size: 2.5rem;
+}
+.intro-info {
+    margin-top: 4.2rem;
+}
+
+.about-content {
+    text-align: center;
+}
+
+.about-content .col-six {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.about-content h1,
+.about-content h2,
+.about-content h3 {
+    color: #292222; /* Change color as needed */
+    font-size: 2.5rem; /* Change font size as needed */
+}
+
+.about-content .intro-info img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+.about-content .col-six p {
+    text-align: justify;
+}
+
+.about-content .info-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.about-content .info-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.about-content .info-list li strong {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #313131;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: 18px; /* Updated font size in pixels */
+    line-height: 3rem;
+}
+
+.about-content .info-list li span {
+    font-family: 'Poppins', sans-serif;
+    color: #888888;
+    font-size: 16px; /* Updated font size in pixels */
+    line-height: 1;
+}
+
+.about.skills {
+    width: 100%;
+}
+
+.skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.skills .box h4{
+    text-transform: uppercase;
+    columns: #848c99;
+    font-weight: 500;
+}
+.skills .box .percentage{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #111111;
+
+}
+.skills .box .percentage div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+
+.button-section {
+    text-align: center;
+}
+
+.button-section .button {
+    width: 250px;
+}
+
+.button-section [class*="col-"] .button:first-child {
+    margin-right: 4rem;
+}
+
+.lead {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    text-align: justify;
+}
+
+.intro-info img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add your media queries as needed */
